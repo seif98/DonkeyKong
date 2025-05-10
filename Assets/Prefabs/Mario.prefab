@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6832230710779576444}
   - component: {fileID: 4917749478685799517}
   - component: {fileID: 3047101229608539321}
+  - component: {fileID: 3176860925332347772}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Player
@@ -115,7 +116,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &3047101229608539321
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -153,3 +154,23 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.65, y: 1}
   m_Direction: 0
+--- !u!114 &3176860925332347772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868547642124219284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d932b1633c705f409867f308399d4c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSprites:
+  - {fileID: -8540619613172979209, guid: 0b4e7f37352449e41ba0a257c5980c51, type: 3}
+  - {fileID: 9030281449398581296, guid: fc4b105b49cf91742a9e1b14b6f1bab6, type: 3}
+  - {fileID: -8540619613172979209, guid: 0b4e7f37352449e41ba0a257c5980c51, type: 3}
+  - {fileID: 4568459519408868020, guid: 89ef55ab2f92b5440b507e390cd0eddf, type: 3}
+  climbSprite: {fileID: -22975975188484428, guid: 1053f396f881b374d9c4a93c6ee5de2a, type: 3}
+  moveSpeed: 3
+  jumpStrength: 4
